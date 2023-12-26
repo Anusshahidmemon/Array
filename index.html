@@ -37,17 +37,36 @@
 //     console.log(i)
 // }
 
-let marks = [85, 97, 44, 37, 76, 60];
-let sum =0
-for(let i of marks){
-    console.log(i)
-   sum += i
-}
+//let marks = [85, 97, 44, 37, 76, 60];
+//let sum =0
+//for(let i of marks){
+//    console.log(i)
+//   sum += i
+//
+//
+//}
+//console.log(sum)
+//
+//
+//let avg = sum/marks.length
+//console.log(avg)
 
-console.log(sum)
 
-let avg = sum/marks.length
-console.log(avg)
+let items = [250, 645, 300, 900, 50];
+
+let i =0
+for (val of items){
+ console.log(`val at index ${i} =${val}`);
+ let offer = val/10;
+ console.log(offer);
+ items[i] =items[i] - offer;
+ console.log(items[i]);
+ i++
+};
+
+
+
+
 
 
     </script>
